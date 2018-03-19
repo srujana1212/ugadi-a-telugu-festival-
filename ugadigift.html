@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+.container {
+  position: relative;
+  width: 50%;
+  height: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+top: 50%;
+  left:50%
+  
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.header {
+   position: fixed;
+   left: 0;
+   top:0;
+   bottom: 100;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+</style>
+</head>
+<body background="uga.jpg">
+<div class="header">
+  <h1>HAPPY UGADI </h1>
+</div>
+
+<div class="footer">
+  <p>Life is a mixture of sweetness,anger,bitter,disgust,fear,happiness(Click on the emojis)</p>
+<img src="uga.jpg" alt="logo" width="50" height="30">
+
+</div>
+
+
+
+<div class="container">
+  <img src="sweet.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+  <img src="banana.jpg" alt="Avatar" class="image">
+  
+    <div class="text">when do u feel happy:
+</br>
+  <input type="text" name="Username:" value="">
+</br>
+  <button type="button" onclick="alert('record saved')">Submit</button>
+
+  </div>
+  </div>
+</div>
+<div class="container">
+  <img src="anger.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+  <img src="pepper.jpg" alt="Avatar" class="image">
+  
+    <div class="text">when do u feel anger:
+</br>
+  <input type="text" name="Username:" value="">
+</br>
+  <button type="button" onclick="alert('record saved')">Submit</button>
+
+  </div>
+  </div>
+</div>
+<div class="container">
+  <img src="bitter.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+  <img src="neem.jpg" alt="Avatar" class="image">
+  
+    <div class="text">when do u feel bitter:
+</br>
+  <input type="text" name="Username:" value="">
+</br>
+  <button type="button" onclick="alert('record saved')">Submit</button>
+
+  </div>
+  </div>
+</div>
+<div class="container">
+  <img src="disgust.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+  <img src="Tamarind.jpg" alt="Avatar" class="image">
+  
+    <div class="text">when do u feel disgust:
+</br>
+  <input type="text" name="Username:" value="">
+</br>
+  <button type="button" onclick="alert('record saved')">Submit</button>
+
+  </div>
+  </div>
+</div>
+<div class="container">
+  <img src="fear.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+  <img src="salt.jpg" alt="Avatar" class="image">
+  
+    <div class="text">when do u feel happy:
+</br>
+  <input type="text" name="Username:" value="">
+</br>
+  <button type="button" onclick="alert('record saved')">Submit</button>
+
+  </div>
+  </div>
+</div>
+<div class="container">
+  <img src="happiness.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+  <img src="jagarey.jpg" alt="Avatar" class="image">
+  
+    <div class="text">when do u feel happy:
+</br>
+  <input type="text" name="Username:" value="">
+</br>
+  <button type="button" onclick="alert('record saved')">Submit</button>
+
+  </div>
+  </div>
+</div>
+
+</body>
+</html>
